@@ -66,6 +66,8 @@ img.gif {
 button.char {
     margin-left: .2em;
     margin-right: .2em;
+    margin-top: .3em;
+    margin-bottom: .3em;
     border: .07em solid #000000;
 }
 

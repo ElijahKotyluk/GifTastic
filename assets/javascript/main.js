@@ -1,5 +1,5 @@
 // Array that holds default search results.
-let charArray = ['Cloud Strife', 'Vincent Valentine', 'Squall Lionheart', 'Tifa Lockheart', 'Sephiroth', 'Quistis Trepe', 'Yuffie Kisaragi'];
+let charArray = ['Cloud Strife', 'Princess Mononoke', 'Shiro Deadman', 'Vincent Valentine', 'Alucard', 'Tifa Lockheart', 'Sephiroth', 'Akira', 'Yuffie Kisaragi', 'Majin Buu', 'Frieza', 'Vampire Hunter D'];
 
 // Creates a button for each item in the charArray.
 function makeButtons () {
