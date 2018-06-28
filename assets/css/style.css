@@ -1,3 +1,104 @@
+html body {
+    font: normal 2em/normal "arizonia", Helvetica, sans-serif;
+}
+
 body {
     background-image: url(../../assets/images/final-fantasy-vii-hd-wallpapers-33116-3206975.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
+
+img.gif {
+    margin: .3em .3em;
+    border: .18em solid #000000;
+}
+
+.container {
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+}
+
+#title {
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: none;
+    z-index: auto;
+    width: auto;
+    height: auto;
+    position: static;
+    cursor: default;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    font: normal 75px/normal "arizonia", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: 0 15px 29px rgba(0,0,0,0.0980392), 10px 20px 5px rgba(0,0,0,0.0470588), -10px 20px 5px rgba(0,0,0,0.0470588);
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+    -webkit-text-stroke-width: .01em;
+    -webkit-text-stroke-color: #000000;
+}
+
+#buttons {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+button.char {
+    margin-left: .2em;
+    margin-right: .2em;
+    border: .07em solid #000000;
+}
+
+#form-container {
+    display: table;
+    width: 100%;
+}
+
+#char-form {
+    display: table-cell;
+    text-align: center;
+    vertical-align: center;
+}
+
+label#search-label {
+    color: #000000;
+    font-size: 1.5em;
+}
+
+input[type=text] {
+    border: 1px solid #000000;
+}
+
+input#addChar {
+    border: .07em solid #000000;
+}
+
+#gif-view {
+    max-height: 400px;
+    height: 400px;
+}
+
+.gif {
+    display: inline;
+}
+

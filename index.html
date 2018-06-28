@@ -6,20 +6,18 @@
     <title>GifTastic</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/main.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>Final Fantasy Character Gifs!</h1>
+        <h1 id="title">Final Fantasy Character Gifs!</h1>
         <div id="buttons"></div>
         <br>
         
         <div id="form-container">
-            <form id="show-form">
-                <label for="show-input">Add more characters: </label>
-                <input type="text" id="show-input">
+            <form id="char-form">
+                <label id="search-label" for="char-input">Add more characters: </label>
+                <input type="text" id="char-input">
                 <input id="addChar" type="submit" value="Search">
             </form>
             <br>
@@ -27,6 +25,9 @@
 
         <div id="gif-view"></div>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/main.js"></script>
+        <script type="text/javascript" script-name="arizonia" src="http://use.edgefonts.net/arizonia.js"></script>
     </div>
 </body>
 </html>
