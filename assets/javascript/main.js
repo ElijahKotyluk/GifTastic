@@ -6,7 +6,7 @@ function makeButtons () {
     $('#buttons').empty();
 
     for (let i = 0; i < charArray.length; i++) {
-        let $btn = $('<button>');
+        const $btn = $('<button>');
         $btn.addClass('char');
         $btn.attr('data-name', charArray[i]);
         $btn.text(charArray[i]);
@@ -16,9 +16,13 @@ function makeButtons () {
 
 $('#addChar').on('click', function () {
     const char = $('#char-input').val().trim(); //.replace(/ /g, '+');
-    charArray.push(char);
-    makeButtons();
-    return false;
+    if (charArray.includes(char)) {
+        alert('You already searched that character.');
+    } else {
+        charArray.push(char);
+        makeButtons();
+        return false;
+    }
 })
 
 function displayGif () {
