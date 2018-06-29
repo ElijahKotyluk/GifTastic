@@ -79,7 +79,6 @@ button.char {
 #char-form {
     display: table-cell;
     text-align: center;
-    vertical-align: center;
 }
 
 label#search-label {

@@ -1,5 +1,5 @@
 // Array that holds default search results.
-let charArray = ['Cloud Strife', 'Princess Mononoke', 'Shiro Deadman', 'Vincent Valentine', 'Alucard', 'Tifa Lockheart', 'Sephiroth', 'Akira', 'Yuffie Kisaragi', 'Majin Buu', 'Frieza', 'Vampire Hunter D'];
+let charArray = ['Cloud Strife', 'Princess Mononoke', 'Gaara', 'Kenpachi Zaraki', 'Shiro Deadman', 'Monokuma', 'Vincent Valentine', 'Alucard', 'Tifa Lockheart', 'Sephiroth', 'Akira', 'Yuffie Kisaragi', 'Majin Buu', 'Frieza', 'Vampire Hunter D'];
 
 // Creates a button for each item in the charArray.
 function makeButtons () {
@@ -15,7 +15,7 @@ function makeButtons () {
 }
 
 $('#addChar').on('click', function () {
-    const char = $('#char-input').val().trim();
+    const char = $('#char-input').val().trim(); //.replace(/ /g, '+');
     charArray.push(char);
     makeButtons();
     return false;
